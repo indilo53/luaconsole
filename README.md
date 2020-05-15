@@ -35,3 +35,5 @@ Known bugs :
 
 ### Don't start in server.cfg, instead ensure luaconsole when needed and stop it after
 ### Alt + C for opening ingame console when loaded
+### Ctrl + Enter for running editor code
+
