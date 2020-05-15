@@ -26,6 +26,7 @@ end)
 ```
 
 To access **myResource** client environnment, just type **myResource** instead of **luaconsole**
+
 To access **myResource** server environnment, type **@myResource** instead of luaconsole
 
 Known bugs : 
