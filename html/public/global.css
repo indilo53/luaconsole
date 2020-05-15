@@ -1,0 +1,24 @@
+html, body {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;;
+}
+
+body {
+	background-color: #111;
+	color: #EEE;
+	display: none;;
+}
+
+multiline > .CodeMirror {
+	width: 100%;
+	height: 100%;
+}
+
+.json-watcher, .json-watcher > .jsoneditor {
+	height: 100%;
+}
