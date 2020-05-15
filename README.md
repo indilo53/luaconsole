@@ -31,3 +31,6 @@ To access **myResource** server environnment, type **@myResource** instead of lu
 Known bugs : 
 
 - Crash when passing huge table to explorer (right pane)
+
+### Don't start in server.cfg, instead ensure luaconsole when needed and stop it after
+### Alt + C for opening ingame console when loaded
