@@ -4,7 +4,7 @@
 - Editor
 - Expression evaluator / Object explorer
 
-![screenshot](https://i.ibb.co/qM8cvXV/Screenshot-10.png)
+![screenshot](https://i.ibb.co/bgVCkqD/Screenshot-10.png)
 
 To integrate luaconsole with your resource, place this code in client / server or both :
 
