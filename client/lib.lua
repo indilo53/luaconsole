@@ -15,20 +15,6 @@ TriggerServerCallback = function(name, cb, ...)
 
 end
 
-TriggerMasterServerCallback = function(name, cb, ...)
-
-  ServerCallbacks[CurrentRequestId] = cb
-
-  TriggerMasterServerEvent('luaconsole:triggerServerCallback', name, CurrentRequestId, ...)
-
-  if CurrentRequestId < 65535 then
-    CurrentRequestId = CurrentRequestId + 1
-  else
-    CurrentRequestId = 0
-  end
-
-end
-
 RegisterNetEvent('luaconsole:serverCallback')
 AddEventHandler('luaconsole:serverCallback', function(requestId, ...)
   ServerCallbacks[requestId](...)
